@@ -42,6 +42,12 @@ html {
   margin: 0 auto;
 }
 
+@media (max-width: 1200px) {
+  .notion-container {
+    width: 80%;
+  }
+}
+
 @media (max-width: 768px) {
   .notion-container {
     width: 100%;
