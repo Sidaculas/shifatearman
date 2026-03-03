@@ -101,7 +101,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
         <div className="notion-container flex items-center justify-between h-14">
           <a href="#" className="text-[18px] font-semibold text-text-primary">Shifat E. Arman</a>
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
             <a href="#life-events" className="text-[14px] text-text-secondary hover:text-text-primary transition-colors">Life Events</a>
             <a href="#featured-works" className="text-[14px] text-text-secondary hover:text-text-primary transition-colors">Featured Works</a>
             <a href="#research" className="text-[14px] text-text-secondary hover:text-text-primary transition-colors">Research</a>
@@ -136,7 +136,7 @@ export default function Home() {
         </div>
 
         {/* Bio Section — Two Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-8 md:gap-10 mb-4">
+        <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-8 lg:gap-10 mb-4">
           {/* Left — Photo & Titles */}
           <div className="flex flex-col items-start">
             <div className="w-[180px] h-[180px] rounded-full overflow-hidden mb-4">
@@ -282,7 +282,7 @@ export default function Home() {
           <h2 className="text-[26px] font-bold text-text-primary mb-2">🏛️ Teaching</h2>
           <p className="text-[16px] text-text-primary mb-5">I have taught the following courses in undergraduate and graduate level.</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {/* Column 1: AI */}
             <div>
               <h3 className="text-[18px] font-bold text-text-primary mb-3">Artificial Intelligence</h3>
