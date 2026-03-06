@@ -166,7 +166,7 @@ export default function Home() {
 
         {/* Life Events */}
         <section id="life-events" className="mb-2 scroll-mt-20">
-          <h2 className="text-[26px] font-bold text-text-primary mb-4">🔥 Life Events</h2>
+          <h2 className="text-[26px] font-bold text-text-primary mb-4">🌟 Life Events</h2>
           <div className="space-y-3">
             {lifeEvents.map((event, i) => (
               <p key={i} className="text-[16px] leading-[1.7] text-text-primary">
